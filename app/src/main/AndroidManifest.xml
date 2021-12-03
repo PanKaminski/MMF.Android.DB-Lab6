@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.User_info_in_db">
         <activity
+            android:name=".UserActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

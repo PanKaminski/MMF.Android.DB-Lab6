@@ -14,8 +14,9 @@ import bsu.mmf.kaminski.user_info_in_db.entities.User;
 @Database(entities = {User.class}, version  = 1)
 public abstract class UserDatabase extends RoomDatabase {
 
-    public abstract UserDAO userDao();
     private static UserDatabase INSTANCE;
+
+    public abstract UserDAO userDao();
 
     public static UserDatabase getDbInstance(Context context) {
         if(INSTANCE == null) {

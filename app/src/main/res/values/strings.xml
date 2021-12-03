@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">user_info_in_db</string>
+    <string name="app_name">Statistics</string>
+    <string name="records_total">Records total:</string>
+    <string name="found_records">Found records:</string>
+    <string name="add_record">Add record</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_or_surname">name or surname</string>
+    <string name="first_name">Name</string>
+    <string name="last_name">Surname</string>
+    <string name="comment">Comment</string>
 </resources>
